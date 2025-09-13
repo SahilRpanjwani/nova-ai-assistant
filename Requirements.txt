@@ -1,0 +1,9 @@
+tk                # For GUI (Tkinter comes with Python, but some systems may need it)
+speechrecognition # Voice input
+pyttsx3           # Text-to-speech
+transformers      # Hugging Face Transformers models
+torch             # Required backend for Transformers models
+
+💡 Notes:
+Libraries like threading, queue, datetime, os, sys, re, random, logging are built into Python, so you don’t need to list them.
+tkinter is part of the standard library on most Python installations, but on some Linux systems, you might need to install it via your package manager (sudo apt install python3-tk).
