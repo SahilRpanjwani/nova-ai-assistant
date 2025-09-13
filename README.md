@@ -1,12 +1,29 @@
-NOVA AI Assistant:
-NOVA is a basic AI-powered voice assistant built in Python. It can listen to your voice commands, respond with text or speech, and supports multiple AI models for conversation.
+# NOVA AI Assistant
 
-Tech Stack: Python, Tkinter, SpeechRecognition, Hugging Face Transformers
-Features:
-Voice commands (speech-to-text & text-to-speech)
-Simple GUI with Tkinter
-Conversational AI powered by GPT-2 and DialoGPT
-Model switching support
-Conversation logging
+**NOVA** is a voice-controlled AI assistant built in **Python**.  
+It listens to your voice commands, responds with text or speech, and supports multiple conversational AI models.  
+This project is primarily for learning and experimenting with AI, NLP, and Python GUI development.
 
-Note: This project is intended for learning and experimenting with AI in Python. It is a prototype and not a polished commercial product.
+---
+
+## 🚀 Features
+
+- Voice commands (speech-to-text)  
+- AI-generated responses (text-to-speech) using GPT models  
+- GUI interface built with **Tkinter**  
+- Supports model switching between different Hugging Face Transformers models  
+- Conversation logging with timestamps  
+- Thread-safe design for responsive GUI  
+
+---
+
+## 🛠️ Tech Stack
+
+- Python 3.x  
+- Tkinter (GUI)  
+- SpeechRecognition (Voice input)  
+- pyttsx3 (Text-to-speech)  
+- Hugging Face Transformers (GPT-2 / DialoGPT)  
+- Standard Python libraries: threading, queue, logging, datetime, os, sys, re, random  
+git clone https://github.com/SahilRpanjwani/nova-ai-assistant.git
+cd nova-ai-assistant
